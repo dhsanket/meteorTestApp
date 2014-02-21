@@ -1,0 +1,8 @@
+<template name="taskList">
+	<input type="checkbox" id="completed"/>
+	<table>
+		{{#each tasks}}
+			{{>taskItem}}
+		{{/each}}
+	</table>
+</template>
